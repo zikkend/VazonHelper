@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "373145951676",
+    "firebase_url": "https://vazonhelper.firebaseio.com",
+    "project_id": "vazonhelper",
+    "storage_bucket": "vazonhelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373145951676:android:744ab045f3fec5cb",
+        "android_client_info": {
+          "package_name": "com.example.myvazonhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373145951676-soegrtlvgfbnb8jn17rcech3q7769rju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myvazonhelper",
+            "certificate_hash": "3f453ebddb89da5d38a547360f288d7a05c892db"
+          }
+        },
+        {
+          "client_id": "373145951676-udq4dgc29rkh090sgvc1tf7d9q8cajg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFuVEnVDLv45PO-CucILDDbUA0ce-DTuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373145951676-udq4dgc29rkh090sgvc1tf7d9q8cajg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

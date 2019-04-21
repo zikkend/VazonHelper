@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">\ \VazonHelper</string>
+    <string name="menu_main">Головна</string>
+    <string name="menu_library">Бібліотека</string>
+    <string name="menu_reminder">Нагадування</string>
+    <string name="menu_forum">Форуми</string>
+    <string name="menu_list">Список вазонів</string>
+    <string name="menu_user">Користувач</string>
+    <string name="menu_settings">Налаштування</string>
+    <string name="menu_calendar">Календар</string>
+    <string name="library">БІБЛІОТЕКА</string>
+    <string name="reminder">НАГАДУВАННЯ</string>
+    <string name="forum">ФОРУМИ</string>
+    <string name="list">СПИСОК ВАЗОНІВ</string>
+    <string name="active_reminder">АКТИВНІ НАГАДУВАННЯ</string>
+    <string name="add_button">Додати вазонок</string>
+    <string name="calender">\ \КАЛЕНДАР</string>
+    <string name="change_reminder">Додати/Забрати нагадування</string>
+    <string name="turner">Вкл/Викл Нагадування</string>
+    <string name="orchid">Способи поливання:
+ Лиємо воду зверху на корінці так, щоб вода витекла у тарілочку чи декоративний горщичок, залишаємо на 60 хвилин, - зайву воду виливаємо.\nБажана вологість повітря:
+Орхідеї потребують великої вологості, вона повинна бути не менше 50 % протягом дня і 70 % вночі, а влітку щонайменше 80%.\nОсвітлення:
+Орхідеї потребують 10-15 годин яскравого світла вдень.
+ </string>
+</resources>

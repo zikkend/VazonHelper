@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53AD61"
+    tools:context=".MainActivity">
+  <!--<LinearLayout-->
+      <!--android:layout_width="match_parent"-->
+      <!--android:layout_height="match_parent"-->
+      <!--android:orientation="vertical"-->
+      <!--&gt;-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--style="@style/toolBar"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/library"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/ic_action_books"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/library"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reminder"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/ic_action_alarm_bell"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/menu_reminder"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/forum"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/ic_action_contract"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/forum"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/vazonlist"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@drawable/ic_action_list"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/list"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_dark_style"
+            android:drawableLeft="@drawable/ic_action_plus_sign_in_a_black_circle"
+            android:gravity="center_vertical"
+            android:paddingLeft="130dp"
+            android:text="  Додати вазон"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!--</LinearLayout>-->
+
+</android.support.constraint.ConstraintLayout>

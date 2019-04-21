@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VazonHelper</string>
+    <string name="menu_main">Main</string>
+    <string name="menu_library">Library</string>
+    <string name="menu_reminder">Reminder</string>
+    <string name="menu_forum">Forums</string>
+    <string name="menu_list">Vazon List</string>
+    <string name="menu_user">User</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_calendar">Календар</string>
+    <string name="library">LIBRARY</string>
+    <string name="reminder">REMINDER</string>
+    <string name="forum">FORUMS</string>
+    <string name="list">VAZON LIST</string>
+    <string name="active_reminder">АКТИВНІ НАГАДУВАННЯ</string>
+    <string name="add_button">Додати вазонок</string>
+    <string name="calender">\'      \' КАЛЕНДАР</string>
+    <string name="change_reminder">Додати/Забрати нагадування</string>
+    <string name="turner">Вкл/Викл Нагадування</string>
+</resources>
